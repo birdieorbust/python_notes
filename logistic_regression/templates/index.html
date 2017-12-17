@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<title>Logistic Regression Flask Demo</title>
+<body>
+<h1>Welcome to a logistic regression demo</h1>
+<p>Once we've trained our model and saved to disk we can use flask to serve the model up</p>
+<p>Are you likely to have an affair?</p>
+<form action = "/getresponse" method="POST">
+	<p> Select Age:<input name="age" type ="text" value="45" /></p>
+	<p> Years married<input name="yrs_married" type ="text" value="45" /></p>
+	<p> <input type ="submit" value="submit" /> </p>
+</form>
+</body>
+</html>
